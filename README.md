@@ -50,7 +50,7 @@ User gives an experiment procedure → AI understands the required sequence → 
 - Implement voice/audio alerts
 - Display experiment status in real time
 
-person 1: tara, person 2 : sanket, person 3 : paanav, person 4 : simran, person 5 : mihika, person 6 : pari
+person 1: tarannum, person 2 : sanket, person 3 : paanav, person 4 : simran, person 5 : mihika, person 6 : parth
 
 - sanket work is optional and will be integrated depending on how well it is done
 - paanav simran mihika have to work together since their work is dependent on one another 
