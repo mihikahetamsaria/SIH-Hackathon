@@ -1,9 +1,10 @@
 # SIH-Hackathon
 
-1. architecture of project:
+*1. Architecture of Project:*
 User gives an experiment procedure → AI understands the required sequence → watches the astronaut → recognizes what is happening → compares it with the expected sequence → detects mistakes → tells the astronaut what to do next
 
-2. Work Division:
+*2. Work Division:*
+
 *person 1 : dataset generation*
 * segment actions
 * create correct sequences
@@ -49,15 +50,10 @@ User gives an experiment procedure → AI understands the required sequence → 
 - Implement voice/audio alerts
 - Display experiment status in real time
 
-person 1: tara
-person 2 : sanket
-person 3 : paanav
-person 4 : simran
-person 5 : mihika
-person 6 : pari
+person 1: tara, person 2 : sanket, person 3 : paanav, person 4 : simran, person 5 : mihika, person 6 : pari
 
-sanket work is optional and will be integrated depending on how well it is done
-paanav simran mihika have to work together since their work is dependent on one another 
+- sanket work is optional and will be integrated depending on how well it is done
+- paanav simran mihika have to work together since their work is dependent on one another 
 
 Dataset options : 
 1. https://www.esa.int/esatv/Videos/2017/06/Gripping_experiment_in_space
