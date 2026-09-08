@@ -1,0 +1,31 @@
+name: 4D-humans
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pytorch
+  - torchvision
+  - pip
+  - pip:
+    - pytorch-lightning
+    - smplx==0.1.28
+    - pyrender
+    - opencv-python
+    - yacs
+    - scikit-image
+    - einops
+    - timm
+    - dill
+    - pandas
+    - ultralytics
+    - git+https://github.com/mattloper/chumpy
+
+    # For training
+    - rich
+    - hydra-core
+    - hydra-submitit-launcher
+    - hydra-colorlog
+    - pyrootutils
+    - webdataset
