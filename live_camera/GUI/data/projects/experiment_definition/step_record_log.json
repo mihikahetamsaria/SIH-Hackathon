@@ -1,0 +1,91 @@
+{
+  "run_status": "ABORTED",
+  "current_expected_step_id": 3,
+  "current_expected_action": "Point forward",
+  "run_started_at": 1789838316.8336978,
+  "run_started_iso": "2026-09-19T22:48:36.833",
+  "run_ended_at": 1789838353.937024,
+  "run_ended_iso": "2026-09-19T22:49:13.937",
+  "steps": [
+    {
+      "step_id": 1,
+      "name": "Fold hands",
+      "status": "done",
+      "ts_start": "2026-09-19T22:48:36.833",
+      "ts_end": "2026-09-19T22:48:55.264",
+      "duration_s": 18.43,
+      "errors": 0
+    },
+    {
+      "step_id": 2,
+      "name": "Give thumbs up",
+      "status": "done",
+      "ts_start": "2026-09-19T22:48:55.264",
+      "ts_end": "2026-09-19T22:49:01.789",
+      "duration_s": 6.52,
+      "errors": 0
+    },
+    {
+      "step_id": 3,
+      "name": "Point forward",
+      "status": "pending",
+      "ts_start": "2026-09-19T22:49:01.789",
+      "ts_end": null,
+      "duration_s": null,
+      "errors": 0
+    },
+    {
+      "step_id": 4,
+      "name": "Hold pen",
+      "status": "pending",
+      "ts_start": null,
+      "ts_end": null,
+      "duration_s": null,
+      "errors": 0
+    }
+  ],
+  "events": [
+    {
+      "timestamp": 1789838335.264667,
+      "time_iso": "2026-09-19T22:48:55.264",
+      "t_plus_s": 18.43,
+      "status": "CORRECT",
+      "step_id": 1,
+      "expected_step_id": 2,
+      "expected_action": "Give thumbs up",
+      "observed_action": "Fold hands",
+      "observed_step_id": null,
+      "skipped_step_ids": [],
+      "confidence": 0.9,
+      "correction": null
+    },
+    {
+      "timestamp": 1789838341.7891088,
+      "time_iso": "2026-09-19T22:49:01.789",
+      "t_plus_s": 24.96,
+      "status": "CORRECT",
+      "step_id": 2,
+      "expected_step_id": 3,
+      "expected_action": "Point forward",
+      "observed_action": "Give thumbs up",
+      "observed_step_id": null,
+      "skipped_step_ids": [],
+      "confidence": 0.9,
+      "correction": null
+    },
+    {
+      "timestamp": 1789838353.937024,
+      "time_iso": "2026-09-19T22:49:13.937",
+      "t_plus_s": 37.1,
+      "status": "ABORTED",
+      "step_id": 3,
+      "expected_step_id": 3,
+      "expected_action": "Point forward",
+      "observed_action": null,
+      "observed_step_id": null,
+      "skipped_step_ids": [],
+      "confidence": 0.0,
+      "correction": "application closed"
+    }
+  ]
+}

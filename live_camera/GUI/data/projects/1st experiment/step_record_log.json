@@ -1,0 +1,77 @@
+{
+  "run_status": "ABORTED",
+  "current_expected_step_id": 2,
+  "current_expected_action": "Give thumbs up",
+  "run_started_at": 1789838641.6140788,
+  "run_started_iso": "2026-09-19T22:54:01.614",
+  "run_ended_at": 1789838685.5165727,
+  "run_ended_iso": "2026-09-19T22:54:45.516",
+  "steps": [
+    {
+      "step_id": 1,
+      "name": "Fold hands",
+      "status": "done",
+      "ts_start": "2026-09-19T22:54:01.614",
+      "ts_end": "2026-09-19T22:54:13.890",
+      "duration_s": 12.28,
+      "errors": 0
+    },
+    {
+      "step_id": 2,
+      "name": "Give thumbs up",
+      "status": "pending",
+      "ts_start": "2026-09-19T22:54:13.890",
+      "ts_end": null,
+      "duration_s": null,
+      "errors": 0
+    },
+    {
+      "step_id": 3,
+      "name": "Point forward",
+      "status": "pending",
+      "ts_start": null,
+      "ts_end": null,
+      "duration_s": null,
+      "errors": 0
+    },
+    {
+      "step_id": 4,
+      "name": "Hold pen",
+      "status": "pending",
+      "ts_start": null,
+      "ts_end": null,
+      "duration_s": null,
+      "errors": 0
+    }
+  ],
+  "events": [
+    {
+      "timestamp": 1789838653.8904533,
+      "time_iso": "2026-09-19T22:54:13.890",
+      "t_plus_s": 12.28,
+      "status": "CORRECT",
+      "step_id": 1,
+      "expected_step_id": 2,
+      "expected_action": "Give thumbs up",
+      "observed_action": "Fold hands",
+      "observed_step_id": null,
+      "skipped_step_ids": [],
+      "confidence": 0.95,
+      "correction": null
+    },
+    {
+      "timestamp": 1789838685.5165727,
+      "time_iso": "2026-09-19T22:54:45.516",
+      "t_plus_s": 43.9,
+      "status": "ABORTED",
+      "step_id": 2,
+      "expected_step_id": 2,
+      "expected_action": "Give thumbs up",
+      "observed_action": null,
+      "observed_step_id": null,
+      "skipped_step_ids": [],
+      "confidence": 0.0,
+      "correction": "application closed"
+    }
+  ]
+}
