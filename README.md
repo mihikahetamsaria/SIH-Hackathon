@@ -50,11 +50,6 @@ User gives an experiment procedure → AI understands the required sequence → 
 - Implement voice/audio alerts
 - Display experiment status in real time
 
-person 1: tarannum, person 2 : sanket, person 3 : paanav, person 4 : simran, person 5 : mihika, person 6 : Parth
-
-- sanket work is optional and will be integrated depending on how well it is done
-- paanav simran mihika have to work together since their work is dependent on one another 
-
 Dataset options : 
 1. https://www.esa.int/esatv/Videos/2017/06/Gripping_experiment_in_space
 2. https://www.esa.int/esatv/Videos/2017/07/Grasping_for_space
